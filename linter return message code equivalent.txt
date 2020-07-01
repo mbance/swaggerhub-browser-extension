@@ -1,0 +1,80 @@
+Line number: start_line
+Error code: rule_link (code after #. String split after character
+Error message: description
+Severity (colour): must (red), should (amber), may (green) and hint (black)
+
+// For test purposes to ensure elements individually are being extracted successfully:
+// console.log('api_name: \r\n' + api_name);
+// console.log('apiVersion: \r\n' + version);
+// console.log('username: \r\n' + username);
+// console.log('yaml_content: \r\n' + yaml_content);
+
+
+
+
+/*
+ * Copyright (c) 2019. by 8x8. Inc.
+ *  _____      _____
+ * |  _  |    |  _  |
+ *  \ V /__  __\ V /   ___ ___  _ __ ___
+ *  / _ \\ \/ // _ \  / __/ _ \| '_ ` _ \
+ * | |_| |>  <| |_| || (_| (_) | | | | | |
+ * \_____/_/\_\_____(_)___\___/|_| |_| |_|
+ *
+ * All rights reserved.
+ *
+ * This software is the confidential and proprietary information
+ * of 8x8 Inc. ("Confidential Information").  You
+ * shall not disclose such Confidential Information and shall use
+ * it only in accordance with the terms of the license agreement
+ * you entered into with 8x8 Inc.
+ */
+
+'use strict';
+
+/**
+ * @param {{env:string}} env - Variable to access environment of the web page
+ * @param {{editor:string}} editor - Variable to access the editor
+ */
+try {
+    console.clear();
+    console.log('Extracting YAML');
+    /**
+     * @type {string} yaml_content: extracts the yaml from the editor
+     * @type {string} api_name: extracts the api name from the UI docs
+     * @type {string} api_version: extracts the api version from the UI docs
+     * @type {string} username: extracts the username from the swaggerhub top navigation bar
+     */
+    let yaml_content = document.getElementsByClassName("ace_editor")[0].env.editor.getValue();
+    let api_name = document.getElementsByClassName("title")[0].innerText.split("\n")[0];
+    let version = document.getElementsByClassName("version-btn")[0].innerText;
+    let username = document.getElementsByClassName("topbar-username")[0].innerText;
+    console.log('Extracted Successfully!');
+
+    /**
+     * These extracted elements are put into an object before being converted into JSON format through JSON Stringify
+     * @type {{api_name: *, yaml_content: *, version: *, username: *}}
+     */
+    let obj = { api_name, version, username, yaml_content };
+    let dataJSON = JSON.stringify(obj);
+    console.log('Linting... waiting for response:');
+
+    let xhr = new XMLHttpRequest();
+    xhr.addEventListener('load', () => {
+        console.log(xhr.responseText);
+
+    //Parses the response to display in a more readable format
+    // let response = xhr.responseText;
+    // let response_obj = JSON.parse(response);
+    // console.log(response_obj);
+    });
+
+    //Linter Server API (1. SwaggerHub Mock API / 2. Cloud8 Zally Linter API)
+    // xhr.open('POST', 'https://swaggerhub.es.8x8.com/virts/8x8/api-linter-service/1.0.0/linter'); // #1
+    xhr.open('POST', 'https://cloud8-acceptance.8x8.com/apidoclinter/public/api/v1/lint'); // #2
+    xhr.setRequestHeader("Content-Type", "application/JSON");
+    xhr.send(dataJSON);
+}
+catch (err) {
+    console.log(err);
+}

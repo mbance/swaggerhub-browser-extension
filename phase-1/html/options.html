@@ -1,0 +1,48 @@
+<!--
+ Copyright (c) 2019. by 8x8. Inc.
+  _____      _____
+ |  _  |    |  _  |
+  \ V /__  __\ V /   ___ ___  _ __ ___
+  / _ \\ \/ // _ \  / __/ _ \| '_ ` _ \
+ | |_| |>  <| |_| || (_| (_) | | | | | |
+ \_____/_/\_\_____(_)___\___/|_| |_| |_|
+
+ All rights reserved.
+
+ This software is the confidential and proprietary information
+ of 8x8 Inc. ("Confidential Information").  You
+ shall not disclose such Confidential Information and shall use
+ it only in accordance with the terms of the license agreement
+ you entered into with 8x8 Inc.
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>SwaggerHub Chrome Extension Settings</title>
+</head>
+<!--Import the external CSS styling to apply to the HTML page-->
+<link rel="stylesheet" href="css/style.css">
+
+<h2><img src="../images/icons/icon16.png" alt="SwaggerHub Logo"> SwaggerHub Chrome Extension: Settings</h2>
+
+<body>
+    <!--Options form to contain the URL user input and button to save(test)-->
+    <form action="">
+        <p>Please enter the host and port of the URL:</p>
+        <label for="url">URL: </label>
+        <input id="url" type="text" placeholder="protocol://host:port" style="font-size: 12pt"/>
+        <button id="btnTest" type="submit">Test</button>
+        <div id="msg"></div>
+    </form>
+</body>
+
+<hr>
+<!--Navigation to switch pages-->
+<div class="nav">
+    <a href="options.html">Settings</a> |
+    <a href="https://git.8x8.com/mbance/swaggerhub-chrome-extension/blob/master/README.md">About</a>
+</div>
+<!--Import Options Javascript-->
+<script src="../js/options.js"></script>
+</html>

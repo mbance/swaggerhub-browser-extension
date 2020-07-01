@@ -1,0 +1,2162 @@
+[
+   {
+      "title":"Provide API Audience",
+      "description":"API Audience must be provided",
+      "violation_type":"MUST",
+      "rule_link":"https://zalando.github.io/restful-api-guidelines/#219",
+      "paths":[
+         "/info/x-audience"
+      ],
+      "pointer":"/info/x-audience",
+      "start_line":2,
+      "end_line":14
+   },
+   {
+      "title":"Provide API Identifier",
+      "description":"API Identifier should be provided",
+      "violation_type":"MUST",
+      "rule_link":"https://zalando.github.io/restful-api-guidelines/#215",
+      "paths":[
+         "/info/x-api-id"
+      ],
+      "pointer":"/info/x-api-id",
+      "start_line":2,
+      "end_line":14
+   },
+   {
+      "title":"Contain API Meta Information",
+      "description":"Contact URL has to be provided",
+      "violation_type":"MUST",
+      "rule_link":"https://zalando.github.io/restful-api-guidelines/#218",
+      "paths":[
+         "/info/contact/url"
+      ],
+      "pointer":"/info/contact/url",
+      "start_line":5,
+      "end_line":8
+   },
+   {
+      "title":"Do Not Use URI Versioning",
+      "description":"URL contains version number",
+      "violation_type":"MUST",
+      "rule_link":"https://zalando.github.io/restful-api-guidelines/#115",
+      "paths":[
+         "/servers/0"
+      ],
+      "pointer":"/servers/0",
+      "start_line":15,
+      "end_line":18
+   },
+   {
+      "title":"Pluralize Resource Names",
+      "description":"Resource 'bulk' appears to be singular",
+      "violation_type":"MUST",
+      "rule_link":"https://zalando.github.io/restful-api-guidelines/#134",
+      "paths":[
+         "/paths/~1bulk"
+      ],
+      "pointer":"/paths/~1bulk",
+      "start_line":202,
+      "end_line":230
+   },
+   {
+      "title":"Pluralize Resource Names",
+      "description":"Resource 'bulk' appears to be singular",
+      "violation_type":"MUST",
+      "rule_link":"https://zalando.github.io/restful-api-guidelines/#134",
+      "paths":[
+         "/paths/~1bulk~1download~1cancel~1{zipName}"
+      ],
+      "pointer":"/paths/~1bulk~1download~1cancel~1{zipName}",
+      "start_line":230,
+      "end_line":269
+   },
+   {
+      "title":"Pluralize Resource Names",
+      "description":"Resource 'download' appears to be singular",
+      "violation_type":"MUST",
+      "rule_link":"https://zalando.github.io/restful-api-guidelines/#134",
+      "paths":[
+         "/paths/~1bulk~1download~1cancel~1{zipName}"
+      ],
+      "pointer":"/paths/~1bulk~1download~1cancel~1{zipName}",
+      "start_line":230,
+      "end_line":269
+   },
+   {
+      "title":"Pluralize Resource Names",
+      "description":"Resource 'cancel' appears to be singular",
+      "violation_type":"MUST",
+      "rule_link":"https://zalando.github.io/restful-api-guidelines/#134",
+      "paths":[
+         "/paths/~1bulk~1download~1cancel~1{zipName}"
+      ],
+      "pointer":"/paths/~1bulk~1download~1cancel~1{zipName}",
+      "start_line":230,
+      "end_line":269
+   },
+   {
+      "title":"Pluralize Resource Names",
+      "description":"Resource 'bulk' appears to be singular",
+      "violation_type":"MUST",
+      "rule_link":"https://zalando.github.io/restful-api-guidelines/#134",
+      "paths":[
+         "/paths/~1bulk~1download~1clear"
+      ],
+      "pointer":"/paths/~1bulk~1download~1clear",
+      "start_line":269,
+      "end_line":299
+   },
+   {
+      "title":"Pluralize Resource Names",
+      "description":"Resource 'download' appears to be singular",
+      "violation_type":"MUST",
+      "rule_link":"https://zalando.github.io/restful-api-guidelines/#134",
+      "paths":[
+         "/paths/~1bulk~1download~1clear"
+      ],
+      "pointer":"/paths/~1bulk~1download~1clear",
+      "start_line":269,
+      "end_line":299
+   },
+   {
+      "title":"Pluralize Resource Names",
+      "description":"Resource 'clear' appears to be singular",
+      "violation_type":"MUST",
+      "rule_link":"https://zalando.github.io/restful-api-guidelines/#134",
+      "paths":[
+         "/paths/~1bulk~1download~1clear"
+      ],
+      "pointer":"/paths/~1bulk~1download~1clear",
+      "start_line":269,
+      "end_line":299
+   },
+   {
+      "title":"Pluralize Resource Names",
+      "description":"Resource 'bulk' appears to be singular",
+      "violation_type":"MUST",
+      "rule_link":"https://zalando.github.io/restful-api-guidelines/#134",
+      "paths":[
+         "/paths/~1bulk~1download~1start"
+      ],
+      "pointer":"/paths/~1bulk~1download~1start",
+      "start_line":299,
+      "end_line":341
+   },
+   {
+      "title":"Pluralize Resource Names",
+      "description":"Resource 'download' appears to be singular",
+      "violation_type":"MUST",
+      "rule_link":"https://zalando.github.io/restful-api-guidelines/#134",
+      "paths":[
+         "/paths/~1bulk~1download~1start"
+      ],
+      "pointer":"/paths/~1bulk~1download~1start",
+      "start_line":299,
+      "end_line":341
+   },
+   {
+      "title":"Pluralize Resource Names",
+      "description":"Resource 'start' appears to be singular",
+      "violation_type":"MUST",
+      "rule_link":"https://zalando.github.io/restful-api-guidelines/#134",
+      "paths":[
+         "/paths/~1bulk~1download~1start"
+      ],
+      "pointer":"/paths/~1bulk~1download~1start",
+      "start_line":299,
+      "end_line":341
+   },
+   {
+      "title":"Pluralize Resource Names",
+      "description":"Resource 'bulk' appears to be singular",
+      "violation_type":"MUST",
+      "rule_link":"https://zalando.github.io/restful-api-guidelines/#134",
+      "paths":[
+         "/paths/~1bulk~1download~1status"
+      ],
+      "pointer":"/paths/~1bulk~1download~1status",
+      "start_line":341,
+      "end_line":367
+   },
+   {
+      "title":"Pluralize Resource Names",
+      "description":"Resource 'download' appears to be singular",
+      "violation_type":"MUST",
+      "rule_link":"https://zalando.github.io/restful-api-guidelines/#134",
+      "paths":[
+         "/paths/~1bulk~1download~1status"
+      ],
+      "pointer":"/paths/~1bulk~1download~1status",
+      "start_line":341,
+      "end_line":367
+   },
+   {
+      "title":"Pluralize Resource Names",
+      "description":"Resource 'status' appears to be singular",
+      "violation_type":"MUST",
+      "rule_link":"https://zalando.github.io/restful-api-guidelines/#134",
+      "paths":[
+         "/paths/~1bulk~1download~1status"
+      ],
+      "pointer":"/paths/~1bulk~1download~1status",
+      "start_line":341,
+      "end_line":367
+   },
+   {
+      "title":"Pluralize Resource Names",
+      "description":"Resource 'bulk' appears to be singular",
+      "violation_type":"MUST",
+      "rule_link":"https://zalando.github.io/restful-api-guidelines/#134",
+      "paths":[
+         "/paths/~1bulk~1download~1status~1{zipName}"
+      ],
+      "pointer":"/paths/~1bulk~1download~1status~1{zipName}",
+      "start_line":367,
+      "end_line":409
+   },
+   {
+      "title":"Pluralize Resource Names",
+      "description":"Resource 'download' appears to be singular",
+      "violation_type":"MUST",
+      "rule_link":"https://zalando.github.io/restful-api-guidelines/#134",
+      "paths":[
+         "/paths/~1bulk~1download~1status~1{zipName}"
+      ],
+      "pointer":"/paths/~1bulk~1download~1status~1{zipName}",
+      "start_line":367,
+      "end_line":409
+   },
+   {
+      "title":"Pluralize Resource Names",
+      "description":"Resource 'status' appears to be singular",
+      "violation_type":"MUST",
+      "rule_link":"https://zalando.github.io/restful-api-guidelines/#134",
+      "paths":[
+         "/paths/~1bulk~1download~1status~1{zipName}"
+      ],
+      "pointer":"/paths/~1bulk~1download~1status~1{zipName}",
+      "start_line":367,
+      "end_line":409
+   },
+   {
+      "title":"Pluralize Resource Names",
+      "description":"Resource 'bulk' appears to be singular",
+      "violation_type":"MUST",
+      "rule_link":"https://zalando.github.io/restful-api-guidelines/#134",
+      "paths":[
+         "/paths/~1bulk~1download~1{zipName}"
+      ],
+      "pointer":"/paths/~1bulk~1download~1{zipName}",
+      "start_line":409,
+      "end_line":443
+   },
+   {
+      "title":"Pluralize Resource Names",
+      "description":"Resource 'download' appears to be singular",
+      "violation_type":"MUST",
+      "rule_link":"https://zalando.github.io/restful-api-guidelines/#134",
+      "paths":[
+         "/paths/~1bulk~1download~1{zipName}"
+      ],
+      "pointer":"/paths/~1bulk~1download~1{zipName}",
+      "start_line":409,
+      "end_line":443
+   },
+   {
+      "title":"Secure All Endpoints With Scopes",
+      "description":"Endpoint not secured by OAuth2 scope(s)",
+      "violation_type":"MUST",
+      "rule_link":"https://zalando.github.io/restful-api-guidelines/#105",
+      "paths":[
+         "/paths/~1buckets/get"
+      ],
+      "pointer":"/paths/~1buckets/get",
+      "start_line":30,
+      "end_line":55
+   },
+   {
+      "title":"Secure All Endpoints With Scopes",
+      "description":"Endpoint not secured by OAuth2 scope(s)",
+      "violation_type":"MUST",
+      "rule_link":"https://zalando.github.io/restful-api-guidelines/#105",
+      "paths":[
+         "/paths/~1buckets/post"
+      ],
+      "pointer":"/paths/~1buckets/post",
+      "start_line":55,
+      "end_line":89
+   },
+   {
+      "title":"Secure All Endpoints With Scopes",
+      "description":"Endpoint not secured by OAuth2 scope(s)",
+      "violation_type":"MUST",
+      "rule_link":"https://zalando.github.io/restful-api-guidelines/#105",
+      "paths":[
+         "/paths/~1buckets~1{bucketId}/get"
+      ],
+      "pointer":"/paths/~1buckets~1{bucketId}/get",
+      "start_line":90,
+      "end_line":123
+   },
+   {
+      "title":"Secure All Endpoints With Scopes",
+      "description":"Endpoint not secured by OAuth2 scope(s)",
+      "violation_type":"MUST",
+      "rule_link":"https://zalando.github.io/restful-api-guidelines/#105",
+      "paths":[
+         "/paths/~1buckets~1{bucketId}/put"
+      ],
+      "pointer":"/paths/~1buckets~1{bucketId}/put",
+      "start_line":123,
+      "end_line":169
+   },
+   {
+      "title":"Secure All Endpoints With Scopes",
+      "description":"Endpoint not secured by OAuth2 scope(s)",
+      "violation_type":"MUST",
+      "rule_link":"https://zalando.github.io/restful-api-guidelines/#105",
+      "paths":[
+         "/paths/~1buckets~1{bucketId}/delete"
+      ],
+      "pointer":"/paths/~1buckets~1{bucketId}/delete",
+      "start_line":169,
+      "end_line":202
+   },
+   {
+      "title":"Secure All Endpoints With Scopes",
+      "description":"Endpoint not secured by OAuth2 scope(s)",
+      "violation_type":"MUST",
+      "rule_link":"https://zalando.github.io/restful-api-guidelines/#105",
+      "paths":[
+         "/paths/~1bulk/delete"
+      ],
+      "pointer":"/paths/~1bulk/delete",
+      "start_line":203,
+      "end_line":230
+   },
+   {
+      "title":"Secure All Endpoints With Scopes",
+      "description":"Endpoint not secured by OAuth2 scope(s)",
+      "violation_type":"MUST",
+      "rule_link":"https://zalando.github.io/restful-api-guidelines/#105",
+      "paths":[
+         "/paths/~1bulk~1download~1cancel~1{zipName}/post"
+      ],
+      "pointer":"/paths/~1bulk~1download~1cancel~1{zipName}/post",
+      "start_line":231,
+      "end_line":269
+   },
+   {
+      "title":"Secure All Endpoints With Scopes",
+      "description":"Endpoint not secured by OAuth2 scope(s)",
+      "violation_type":"MUST",
+      "rule_link":"https://zalando.github.io/restful-api-guidelines/#105",
+      "paths":[
+         "/paths/~1bulk~1download~1clear/put"
+      ],
+      "pointer":"/paths/~1bulk~1download~1clear/put",
+      "start_line":270,
+      "end_line":299
+   },
+   {
+      "title":"Secure All Endpoints With Scopes",
+      "description":"Endpoint not secured by OAuth2 scope(s)",
+      "violation_type":"MUST",
+      "rule_link":"https://zalando.github.io/restful-api-guidelines/#105",
+      "paths":[
+         "/paths/~1bulk~1download~1start/post"
+      ],
+      "pointer":"/paths/~1bulk~1download~1start/post",
+      "start_line":300,
+      "end_line":341
+   },
+   {
+      "title":"Secure All Endpoints With Scopes",
+      "description":"Endpoint not secured by OAuth2 scope(s)",
+      "violation_type":"MUST",
+      "rule_link":"https://zalando.github.io/restful-api-guidelines/#105",
+      "paths":[
+         "/paths/~1bulk~1download~1status/get"
+      ],
+      "pointer":"/paths/~1bulk~1download~1status/get",
+      "start_line":342,
+      "end_line":367
+   },
+   {
+      "title":"Secure All Endpoints With Scopes",
+      "description":"Endpoint not secured by OAuth2 scope(s)",
+      "violation_type":"MUST",
+      "rule_link":"https://zalando.github.io/restful-api-guidelines/#105",
+      "paths":[
+         "/paths/~1bulk~1download~1status~1{zipName}/get"
+      ],
+      "pointer":"/paths/~1bulk~1download~1status~1{zipName}/get",
+      "start_line":368,
+      "end_line":409
+   },
+   {
+      "title":"Secure All Endpoints With Scopes",
+      "description":"Endpoint not secured by OAuth2 scope(s)",
+      "violation_type":"MUST",
+      "rule_link":"https://zalando.github.io/restful-api-guidelines/#105",
+      "paths":[
+         "/paths/~1bulk~1download~1{zipName}/get"
+      ],
+      "pointer":"/paths/~1bulk~1download~1{zipName}/get",
+      "start_line":410,
+      "end_line":443
+   },
+   {
+      "title":"Secure All Endpoints With Scopes",
+      "description":"Endpoint not secured by OAuth2 scope(s)",
+      "violation_type":"MUST",
+      "rule_link":"https://zalando.github.io/restful-api-guidelines/#105",
+      "paths":[
+         "/paths/~1metadata/get"
+      ],
+      "pointer":"/paths/~1metadata/get",
+      "start_line":444,
+      "end_line":614
+   },
+   {
+      "title":"Secure All Endpoints With Scopes",
+      "description":"Endpoint not secured by OAuth2 scope(s)",
+      "violation_type":"MUST",
+      "rule_link":"https://zalando.github.io/restful-api-guidelines/#105",
+      "paths":[
+         "/paths/~1metadata/post"
+      ],
+      "pointer":"/paths/~1metadata/post",
+      "start_line":614,
+      "end_line":687
+   },
+   {
+      "title":"Secure All Endpoints With Scopes",
+      "description":"Endpoint not secured by OAuth2 scope(s)",
+      "violation_type":"MUST",
+      "rule_link":"https://zalando.github.io/restful-api-guidelines/#105",
+      "paths":[
+         "/paths/~1metadata~1{metadataId}/get"
+      ],
+      "pointer":"/paths/~1metadata~1{metadataId}/get",
+      "start_line":688,
+      "end_line":729
+   },
+   {
+      "title":"Secure All Endpoints With Scopes",
+      "description":"Endpoint not secured by OAuth2 scope(s)",
+      "violation_type":"MUST",
+      "rule_link":"https://zalando.github.io/restful-api-guidelines/#105",
+      "paths":[
+         "/paths/~1metadata~1{metadataId}/put"
+      ],
+      "pointer":"/paths/~1metadata~1{metadataId}/put",
+      "start_line":729,
+      "end_line":804
+   },
+   {
+      "title":"Secure All Endpoints With Scopes",
+      "description":"Endpoint not secured by OAuth2 scope(s)",
+      "violation_type":"MUST",
+      "rule_link":"https://zalando.github.io/restful-api-guidelines/#105",
+      "paths":[
+         "/paths/~1metadata~1{metadataId}/delete"
+      ],
+      "pointer":"/paths/~1metadata~1{metadataId}/delete",
+      "start_line":804,
+      "end_line":848
+   },
+   {
+      "title":"Secure All Endpoints With Scopes",
+      "description":"Endpoint not secured by OAuth2 scope(s)",
+      "violation_type":"MUST",
+      "rule_link":"https://zalando.github.io/restful-api-guidelines/#105",
+      "paths":[
+         "/paths/~1metadata~1{metadataId}~1states/put"
+      ],
+      "pointer":"/paths/~1metadata~1{metadataId}~1states/put",
+      "start_line":849,
+      "end_line":890
+   },
+   {
+      "title":"Secure All Endpoints With Scopes",
+      "description":"Endpoint not secured by OAuth2 scope(s)",
+      "violation_type":"MUST",
+      "rule_link":"https://zalando.github.io/restful-api-guidelines/#105",
+      "paths":[
+         "/paths/~1objects~1{metadataId}/get"
+      ],
+      "pointer":"/paths/~1objects~1{metadataId}/get",
+      "start_line":891,
+      "end_line":927
+   },
+   {
+      "title":"Secure All Endpoints With Scopes",
+      "description":"Endpoint not secured by OAuth2 scope(s)",
+      "violation_type":"MUST",
+      "rule_link":"https://zalando.github.io/restful-api-guidelines/#105",
+      "paths":[
+         "/paths/~1objects~1{metadataId}/post"
+      ],
+      "pointer":"/paths/~1objects~1{metadataId}/post",
+      "start_line":927,
+      "end_line":965
+   },
+   {
+      "title":"Secure Endpoints with OAuth 2.0",
+      "description":"API has to be secured by OAuth2",
+      "violation_type":"MUST",
+      "rule_link":"https://zalando.github.io/restful-api-guidelines/#104",
+      "paths":[
+         "/components/securitySchemes"
+      ],
+      "pointer":"/components/securitySchemes",
+      "start_line":965,
+      "end_line":1323
+   },
+   {
+      "title":"Use snake_case (never camelCase) for Query Parameters",
+      "description":"Query parameter has to be snake_case",
+      "violation_type":"MUST",
+      "rule_link":"https://zalando.github.io/restful-api-guidelines/#130",
+      "paths":[
+         "/paths/~1metadata~1{metadataId}/put/parameters/1"
+      ],
+      "pointer":"/paths/~1metadata~1{metadataId}/put/parameters/1",
+      "start_line":744,
+      "end_line":750
+   },
+   {
+      "title":"Use snake_case (never camelCase) for Query Parameters",
+      "description":"Query parameter has to be snake_case",
+      "violation_type":"MUST",
+      "rule_link":"https://zalando.github.io/restful-api-guidelines/#130",
+      "paths":[
+         "/paths/~1metadata/get/parameters/2"
+      ],
+      "pointer":"/paths/~1metadata/get/parameters/2",
+      "start_line":558,
+      "end_line":567
+   },
+   {
+      "title":"Use snake_case (never camelCase) for Query Parameters",
+      "description":"Query parameter has to be snake_case",
+      "violation_type":"MUST",
+      "rule_link":"https://zalando.github.io/restful-api-guidelines/#130",
+      "paths":[
+         "/paths/~1metadata/get/parameters/4"
+      ],
+      "pointer":"/paths/~1metadata/get/parameters/4",
+      "start_line":576,
+      "end_line":584
+   },
+   {
+      "title":"Use snake_case (never camelCase) for Query Parameters",
+      "description":"Query parameter has to be snake_case",
+      "violation_type":"MUST",
+      "rule_link":"https://zalando.github.io/restful-api-guidelines/#130",
+      "paths":[
+         "/paths/~1metadata/get/parameters/5"
+      ],
+      "pointer":"/paths/~1metadata/get/parameters/5",
+      "start_line":584,
+      "end_line":592
+   },
+   {
+      "title":"Use snake_case (never camelCase) for Query Parameters",
+      "description":"Query parameter has to be snake_case",
+      "violation_type":"MUST",
+      "rule_link":"https://zalando.github.io/restful-api-guidelines/#130",
+      "paths":[
+         "/paths/~1metadata~1{metadataId}/put/parameters/2"
+      ],
+      "pointer":"/paths/~1metadata~1{metadataId}/put/parameters/2",
+      "start_line":750,
+      "end_line":759
+   },
+   {
+      "title":"Use snake_case (never camelCase) for Query Parameters",
+      "description":"Query parameter has to be snake_case",
+      "violation_type":"MUST",
+      "rule_link":"https://zalando.github.io/restful-api-guidelines/#130",
+      "paths":[
+         "/paths/~1metadata~1{metadataId}/put/parameters/4"
+      ],
+      "pointer":"/paths/~1metadata~1{metadataId}/put/parameters/4",
+      "start_line":767,
+      "end_line":775
+   },
+   {
+      "title":"Use snake_case (never camelCase) for Query Parameters",
+      "description":"Query parameter has to be snake_case",
+      "violation_type":"MUST",
+      "rule_link":"https://zalando.github.io/restful-api-guidelines/#130",
+      "paths":[
+         "/paths/~1metadata~1{metadataId}/delete/parameters/0"
+      ],
+      "pointer":"/paths/~1metadata~1{metadataId}/delete/parameters/0",
+      "start_line":812,
+      "end_line":820
+   },
+   {
+      "title":"Property Names Must be ASCII snake_case",
+      "description":"Property name has to be snake_case",
+      "violation_type":"MUST",
+      "rule_link":"https://zalando.github.io/restful-api-guidelines/#118",
+      "paths":[
+         "/components/schemas/MetadataResponse/properties/customerId"
+      ],
+      "pointer":"/components/schemas/MetadataResponse/properties/customerId",
+      "start_line":1161,
+      "end_line":1165
+   },
+   {
+      "title":"Property Names Must be ASCII snake_case",
+      "description":"Property name has to be snake_case",
+      "violation_type":"MUST",
+      "rule_link":"https://zalando.github.io/restful-api-guidelines/#118",
+      "paths":[
+         "/components/schemas/MetadataResponse/properties/userId"
+      ],
+      "pointer":"/components/schemas/MetadataResponse/properties/userId",
+      "start_line":1225,
+      "end_line":1229
+   },
+   {
+      "title":"Property Names Must be ASCII snake_case",
+      "description":"Property name has to be snake_case",
+      "violation_type":"MUST",
+      "rule_link":"https://zalando.github.io/restful-api-guidelines/#118",
+      "paths":[
+         "/components/schemas/MetadataResponse/properties/createdTime"
+      ],
+      "pointer":"/components/schemas/MetadataResponse/properties/createdTime",
+      "start_line":1157,
+      "end_line":1161
+   },
+   {
+      "title":"Property Names Must be ASCII snake_case",
+      "description":"Property name has to be snake_case",
+      "violation_type":"MUST",
+      "rule_link":"https://zalando.github.io/restful-api-guidelines/#118",
+      "paths":[
+         "/components/schemas/MetadataResponse/properties/bucketId"
+      ],
+      "pointer":"/components/schemas/MetadataResponse/properties/bucketId",
+      "start_line":1145,
+      "end_line":1149
+   },
+   {
+      "title":"Property Names Must be ASCII snake_case",
+      "description":"Property name has to be snake_case",
+      "violation_type":"MUST",
+      "rule_link":"https://zalando.github.io/restful-api-guidelines/#118",
+      "paths":[
+         "/components/schemas/BucketResponse/properties/metadataList"
+      ],
+      "pointer":"/components/schemas/BucketResponse/properties/metadataList",
+      "start_line":1042,
+      "end_line":1046
+   },
+   {
+      "title":"Property Names Must be ASCII snake_case",
+      "description":"Property name has to be snake_case",
+      "violation_type":"MUST",
+      "rule_link":"https://zalando.github.io/restful-api-guidelines/#118",
+      "paths":[
+         "/components/schemas/MetadataResponse/properties/updatedTime"
+      ],
+      "pointer":"/components/schemas/MetadataResponse/properties/updatedTime",
+      "start_line":1220,
+      "end_line":1225
+   },
+   {
+      "title":"Property Names Must be ASCII snake_case",
+      "description":"Property name has to be snake_case",
+      "violation_type":"MUST",
+      "rule_link":"https://zalando.github.io/restful-api-guidelines/#118",
+      "paths":[
+         "/components/schemas/downloadContentStatus/properties/zipName"
+      ],
+      "pointer":"/components/schemas/downloadContentStatus/properties/zipName",
+      "start_line":1093,
+      "end_line":1095
+   },
+   {
+      "title":"Property Names Must be ASCII snake_case",
+      "description":"Property name has to be snake_case",
+      "violation_type":"MUST",
+      "rule_link":"https://zalando.github.io/restful-api-guidelines/#118",
+      "paths":[
+         "/components/schemas/MetadataResponse/properties/mimeType"
+      ],
+      "pointer":"/components/schemas/MetadataResponse/properties/mimeType",
+      "start_line":1169,
+      "end_line":1173
+   },
+   {
+      "title":"Property Names Must be ASCII snake_case",
+      "description":"Property name has to be snake_case",
+      "violation_type":"MUST",
+      "rule_link":"https://zalando.github.io/restful-api-guidelines/#118",
+      "paths":[
+         "/components/schemas/ObjectStateRequest/properties/objectState"
+      ],
+      "pointer":"/components/schemas/ObjectStateRequest/properties/objectState",
+      "start_line":1234,
+      "end_line":1252
+   },
+   {
+      "title":"Property Names Must be ASCII snake_case",
+      "description":"Property name has to be snake_case",
+      "violation_type":"MUST",
+      "rule_link":"https://zalando.github.io/restful-api-guidelines/#118",
+      "paths":[
+         "/components/schemas/MetadataResponse/properties/checksumType"
+      ],
+      "pointer":"/components/schemas/MetadataResponse/properties/checksumType",
+      "start_line":1153,
+      "end_line":1157
+   },
+   {
+      "title":"Property Names Must be ASCII snake_case",
+      "description":"Property name has to be snake_case",
+      "violation_type":"MUST",
+      "rule_link":"https://zalando.github.io/restful-api-guidelines/#118",
+      "paths":[
+         "/components/schemas/MetadataResponse/properties/metadataId"
+      ],
+      "pointer":"/components/schemas/MetadataResponse/properties/metadataId",
+      "start_line":1165,
+      "end_line":1169
+   },
+   {
+      "title":"Property Names Must be ASCII snake_case",
+      "description":"Property name has to be snake_case",
+      "violation_type":"MUST",
+      "rule_link":"https://zalando.github.io/restful-api-guidelines/#118",
+      "paths":[
+         "/components/schemas/MetadataResponse/properties/objectName"
+      ],
+      "pointer":"/components/schemas/MetadataResponse/properties/objectName",
+      "start_line":1173,
+      "end_line":1177
+   },
+   {
+      "title":"Property Names Must be ASCII snake_case",
+      "description":"Property name has to be snake_case",
+      "violation_type":"MUST",
+      "rule_link":"https://zalando.github.io/restful-api-guidelines/#118",
+      "paths":[
+         "/components/schemas/MetadataResponse/properties/objectId"
+      ],
+      "pointer":"/components/schemas/MetadataResponse/properties/objectId",
+      "start_line":1177,
+      "end_line":1181
+   },
+   {
+      "title":"Property Names Must be ASCII snake_case",
+      "description":"Property name has to be snake_case",
+      "violation_type":"MUST",
+      "rule_link":"https://zalando.github.io/restful-api-guidelines/#118",
+      "paths":[
+         "/components/schemas/MetadataResponse/properties/revisionId"
+      ],
+      "pointer":"/components/schemas/MetadataResponse/properties/revisionId",
+      "start_line":1201,
+      "end_line":1205
+   },
+   {
+      "title":"Property Names Must be ASCII snake_case",
+      "description":"Property name has to be snake_case",
+      "violation_type":"MUST",
+      "rule_link":"https://zalando.github.io/restful-api-guidelines/#118",
+      "paths":[
+         "/components/schemas/MetadataResponse/properties/storedBytes"
+      ],
+      "pointer":"/components/schemas/MetadataResponse/properties/storedBytes",
+      "start_line":1205,
+      "end_line":1209
+   },
+   {
+      "title":"Property Names Must be ASCII snake_case",
+      "description":"Property name has to be snake_case",
+      "violation_type":"MUST",
+      "rule_link":"https://zalando.github.io/restful-api-guidelines/#118",
+      "paths":[
+         "/components/schemas/ResponsePage/properties/lastPage"
+      ],
+      "pointer":"/components/schemas/ResponsePage/properties/lastPage",
+      "start_line":1260,
+      "end_line":1264
+   },
+   {
+      "title":"Property Names Must be ASCII snake_case",
+      "description":"Property name has to be snake_case",
+      "violation_type":"MUST",
+      "rule_link":"https://zalando.github.io/restful-api-guidelines/#118",
+      "paths":[
+         "/components/schemas/ResponsePage/properties/pageKey"
+      ],
+      "pointer":"/components/schemas/ResponsePage/properties/pageKey",
+      "start_line":1264,
+      "end_line":1269
+   },
+   {
+      "title":"Property Names Must be ASCII snake_case",
+      "description":"Property name has to be snake_case",
+      "violation_type":"MUST",
+      "rule_link":"https://zalando.github.io/restful-api-guidelines/#118",
+      "paths":[
+         "/components/schemas/ResponsePage/properties/pageSize"
+      ],
+      "pointer":"/components/schemas/ResponsePage/properties/pageSize",
+      "start_line":1269,
+      "end_line":1274
+   },
+   {
+      "title":"Property Names Must be ASCII snake_case",
+      "description":"Property name has to be snake_case",
+      "violation_type":"MUST",
+      "rule_link":"https://zalando.github.io/restful-api-guidelines/#118",
+      "paths":[
+         "/components/schemas/error/properties/errorCode"
+      ],
+      "pointer":"/components/schemas/error/properties/errorCode",
+      "start_line":1315,
+      "end_line":1318
+   },
+   {
+      "title":"Response As JSON Object",
+      "description":"Always return JSON objects as top-level data structures to support extensibility",
+      "violation_type":"MUST",
+      "rule_link":"https://zalando.github.io/restful-api-guidelines/#110",
+      "paths":[
+         "/paths/~1buckets~1{bucketId}/put/responses/200/content/application~1json/schema"
+      ],
+      "pointer":"/paths/~1buckets~1{bucketId}/put/responses/200/content/application~1json/schema",
+      "start_line":143,
+      "end_line":147
+   },
+   {
+      "title":"Response As JSON Object",
+      "description":"Always return JSON objects as top-level data structures to support extensibility",
+      "violation_type":"MUST",
+      "rule_link":"https://zalando.github.io/restful-api-guidelines/#110",
+      "paths":[
+         "/paths/~1bulk~1download~1cancel~1{zipName}/post/responses/200/content/application~1json/schema"
+      ],
+      "pointer":"/paths/~1bulk~1download~1cancel~1{zipName}/post/responses/200/content/application~1json/schema",
+      "start_line":250,
+      "end_line":254
+   },
+   {
+      "title":"Response As JSON Object",
+      "description":"Always return JSON objects as top-level data structures to support extensibility",
+      "violation_type":"MUST",
+      "rule_link":"https://zalando.github.io/restful-api-guidelines/#110",
+      "paths":[
+         "/paths/~1bulk~1download~1clear/put/responses/200/content/application~1json/schema"
+      ],
+      "pointer":"/paths/~1bulk~1download~1clear/put/responses/200/content/application~1json/schema",
+      "start_line":282,
+      "end_line":286
+   },
+   {
+      "title":"Response As JSON Object",
+      "description":"Always return JSON objects as top-level data structures to support extensibility",
+      "violation_type":"MUST",
+      "rule_link":"https://zalando.github.io/restful-api-guidelines/#110",
+      "paths":[
+         "/paths/~1bulk~1download~1start/post/responses/200/content/application~1json/schema"
+      ],
+      "pointer":"/paths/~1bulk~1download~1start/post/responses/200/content/application~1json/schema",
+      "start_line":312,
+      "end_line":316
+   },
+   {
+      "title":"Response As JSON Object",
+      "description":"Always return JSON objects as top-level data structures to support extensibility",
+      "violation_type":"MUST",
+      "rule_link":"https://zalando.github.io/restful-api-guidelines/#110",
+      "paths":[
+         "/paths/~1bulk~1download~1status/get/responses/200/content/application~1json/schema"
+      ],
+      "pointer":"/paths/~1bulk~1download~1status/get/responses/200/content/application~1json/schema",
+      "start_line":354,
+      "end_line":358
+   },
+   {
+      "title":"Response As JSON Object",
+      "description":"Always return JSON objects as top-level data structures to support extensibility",
+      "violation_type":"MUST",
+      "rule_link":"https://zalando.github.io/restful-api-guidelines/#110",
+      "paths":[
+         "/paths/~1bulk~1download~1status~1{zipName}/get/responses/200/content/application~1json/schema"
+      ],
+      "pointer":"/paths/~1bulk~1download~1status~1{zipName}/get/responses/200/content/application~1json/schema",
+      "start_line":396,
+      "end_line":400
+   },
+   {
+      "title":"Response As JSON Object",
+      "description":"Always return JSON objects as top-level data structures to support extensibility",
+      "violation_type":"MUST",
+      "rule_link":"https://zalando.github.io/restful-api-guidelines/#110",
+      "paths":[
+         "/paths/~1bulk~1download~1{zipName}/get/responses/200/content/application~1json/schema"
+      ],
+      "pointer":"/paths/~1bulk~1download~1{zipName}/get/responses/200/content/application~1json/schema",
+      "start_line":430,
+      "end_line":434
+   },
+   {
+      "title":"Response As JSON Object",
+      "description":"Always return JSON objects as top-level data structures to support extensibility",
+      "violation_type":"MUST",
+      "rule_link":"https://zalando.github.io/restful-api-guidelines/#110",
+      "paths":[
+         "/paths/~1metadata/get/responses/200/content/application~1json/schema"
+      ],
+      "pointer":"/paths/~1metadata/get/responses/200/content/application~1json/schema",
+      "start_line":597,
+      "end_line":601
+   },
+   {
+      "title":"Response As JSON Object",
+      "description":"Always return JSON objects as top-level data structures to support extensibility",
+      "violation_type":"MUST",
+      "rule_link":"https://zalando.github.io/restful-api-guidelines/#110",
+      "paths":[
+         "/paths/~1objects~1{metadataId}/get/responses/200/content/application~1json/schema"
+      ],
+      "pointer":"/paths/~1objects~1{metadataId}/get/responses/200/content/application~1json/schema",
+      "start_line":911,
+      "end_line":914
+   },
+   {
+      "title":"Response As JSON Object",
+      "description":"Always return JSON objects as top-level data structures to support extensibility",
+      "violation_type":"MUST",
+      "rule_link":"https://zalando.github.io/restful-api-guidelines/#110",
+      "paths":[
+         "/paths/~1objects~1{metadataId}/post/responses/200/content/application~1json/schema"
+      ],
+      "pointer":"/paths/~1objects~1{metadataId}/post/responses/200/content/application~1json/schema",
+      "start_line":947,
+      "end_line":950
+   },
+   {
+      "title":"Use Problem JSON",
+      "description":"Operations should return problem JSON when any problem occurs during processing whether caused by client or server. Media type have to be 'application/problem+json'",
+      "violation_type":"MUST",
+      "rule_link":"https://zalando.github.io/restful-api-guidelines/#176",
+      "paths":[
+         "/components/responses/unauthorized/content/application~1json"
+      ],
+      "pointer":"/components/responses/unauthorized/content/application~1json",
+      "start_line":980,
+      "end_line":983
+   },
+   {
+      "title":"Use Problem JSON",
+      "description":"Operations should return problem JSON when any problem occurs during processing whether caused by client or server. Media type have to be 'application/problem+json'",
+      "violation_type":"MUST",
+      "rule_link":"https://zalando.github.io/restful-api-guidelines/#176",
+      "paths":[
+         "/components/responses/forbidden/content/application~1json"
+      ],
+      "pointer":"/components/responses/forbidden/content/application~1json",
+      "start_line":986,
+      "end_line":989
+   },
+   {
+      "title":"Use Problem JSON",
+      "description":"Operations should return problem JSON when any problem occurs during processing whether caused by client or server. Media type have to be 'application/problem+json'",
+      "violation_type":"MUST",
+      "rule_link":"https://zalando.github.io/restful-api-guidelines/#176",
+      "paths":[
+         "/components/responses/notFound/content/application~1json"
+      ],
+      "pointer":"/components/responses/notFound/content/application~1json",
+      "start_line":992,
+      "end_line":995
+   },
+   {
+      "title":"Use Problem JSON",
+      "description":"Operations should return problem JSON when any problem occurs during processing whether caused by client or server. Media type have to be 'application/problem+json'",
+      "violation_type":"MUST",
+      "rule_link":"https://zalando.github.io/restful-api-guidelines/#176",
+      "paths":[
+         "/components/responses/methodNotAllowed/content/application~1json"
+      ],
+      "pointer":"/components/responses/methodNotAllowed/content/application~1json",
+      "start_line":998,
+      "end_line":1001
+   },
+   {
+      "title":"Use Problem JSON",
+      "description":"Operations should return problem JSON when any problem occurs during processing whether caused by client or server. Media type have to be 'application/problem+json'",
+      "violation_type":"MUST",
+      "rule_link":"https://zalando.github.io/restful-api-guidelines/#176",
+      "paths":[
+         "/components/responses/unauthorized/content/application~1json"
+      ],
+      "pointer":"/components/responses/unauthorized/content/application~1json",
+      "start_line":980,
+      "end_line":983
+   },
+   {
+      "title":"Use Problem JSON",
+      "description":"Operations should return problem JSON when any problem occurs during processing whether caused by client or server. Media type have to be 'application/problem+json'",
+      "violation_type":"MUST",
+      "rule_link":"https://zalando.github.io/restful-api-guidelines/#176",
+      "paths":[
+         "/components/responses/forbidden/content/application~1json"
+      ],
+      "pointer":"/components/responses/forbidden/content/application~1json",
+      "start_line":986,
+      "end_line":989
+   },
+   {
+      "title":"Use Problem JSON",
+      "description":"Operations should return problem JSON when any problem occurs during processing whether caused by client or server. Media type have to be 'application/problem+json'",
+      "violation_type":"MUST",
+      "rule_link":"https://zalando.github.io/restful-api-guidelines/#176",
+      "paths":[
+         "/components/responses/notFound/content/application~1json"
+      ],
+      "pointer":"/components/responses/notFound/content/application~1json",
+      "start_line":992,
+      "end_line":995
+   },
+   {
+      "title":"Use Problem JSON",
+      "description":"Operations should return problem JSON when any problem occurs during processing whether caused by client or server. Media type have to be 'application/problem+json'",
+      "violation_type":"MUST",
+      "rule_link":"https://zalando.github.io/restful-api-guidelines/#176",
+      "paths":[
+         "/components/responses/methodNotAllowed/content/application~1json"
+      ],
+      "pointer":"/components/responses/methodNotAllowed/content/application~1json",
+      "start_line":998,
+      "end_line":1001
+   },
+   {
+      "title":"Use Problem JSON",
+      "description":"Operations should return problem JSON when any problem occurs during processing whether caused by client or server. Media type have to be 'application/problem+json'",
+      "violation_type":"MUST",
+      "rule_link":"https://zalando.github.io/restful-api-guidelines/#176",
+      "paths":[
+         "/components/responses/unauthorized/content/application~1json"
+      ],
+      "pointer":"/components/responses/unauthorized/content/application~1json",
+      "start_line":980,
+      "end_line":983
+   },
+   {
+      "title":"Use Problem JSON",
+      "description":"Operations should return problem JSON when any problem occurs during processing whether caused by client or server. Media type have to be 'application/problem+json'",
+      "violation_type":"MUST",
+      "rule_link":"https://zalando.github.io/restful-api-guidelines/#176",
+      "paths":[
+         "/components/responses/forbidden/content/application~1json"
+      ],
+      "pointer":"/components/responses/forbidden/content/application~1json",
+      "start_line":986,
+      "end_line":989
+   },
+   {
+      "title":"Use Problem JSON",
+      "description":"Operations should return problem JSON when any problem occurs during processing whether caused by client or server. Media type have to be 'application/problem+json'",
+      "violation_type":"MUST",
+      "rule_link":"https://zalando.github.io/restful-api-guidelines/#176",
+      "paths":[
+         "/components/responses/notFound/content/application~1json"
+      ],
+      "pointer":"/components/responses/notFound/content/application~1json",
+      "start_line":992,
+      "end_line":995
+   },
+   {
+      "title":"Use Problem JSON",
+      "description":"Operations should return problem JSON when any problem occurs during processing whether caused by client or server. Media type have to be 'application/problem+json'",
+      "violation_type":"MUST",
+      "rule_link":"https://zalando.github.io/restful-api-guidelines/#176",
+      "paths":[
+         "/components/responses/methodNotAllowed/content/application~1json"
+      ],
+      "pointer":"/components/responses/methodNotAllowed/content/application~1json",
+      "start_line":998,
+      "end_line":1001
+   },
+   {
+      "title":"Use Problem JSON",
+      "description":"Operations should return problem JSON when any problem occurs during processing whether caused by client or server. Media type have to be 'application/problem+json'",
+      "violation_type":"MUST",
+      "rule_link":"https://zalando.github.io/restful-api-guidelines/#176",
+      "paths":[
+         "/components/responses/badRequest/content/application~1json"
+      ],
+      "pointer":"/components/responses/badRequest/content/application~1json",
+      "start_line":974,
+      "end_line":977
+   },
+   {
+      "title":"Use Problem JSON",
+      "description":"Operations should return problem JSON when any problem occurs during processing whether caused by client or server. Media type have to be 'application/problem+json'",
+      "violation_type":"MUST",
+      "rule_link":"https://zalando.github.io/restful-api-guidelines/#176",
+      "paths":[
+         "/components/responses/unauthorized/content/application~1json"
+      ],
+      "pointer":"/components/responses/unauthorized/content/application~1json",
+      "start_line":980,
+      "end_line":983
+   },
+   {
+      "title":"Use Problem JSON",
+      "description":"Operations should return problem JSON when any problem occurs during processing whether caused by client or server. Media type have to be 'application/problem+json'",
+      "violation_type":"MUST",
+      "rule_link":"https://zalando.github.io/restful-api-guidelines/#176",
+      "paths":[
+         "/components/responses/forbidden/content/application~1json"
+      ],
+      "pointer":"/components/responses/forbidden/content/application~1json",
+      "start_line":986,
+      "end_line":989
+   },
+   {
+      "title":"Use Problem JSON",
+      "description":"Operations should return problem JSON when any problem occurs during processing whether caused by client or server. Media type have to be 'application/problem+json'",
+      "violation_type":"MUST",
+      "rule_link":"https://zalando.github.io/restful-api-guidelines/#176",
+      "paths":[
+         "/components/responses/notFound/content/application~1json"
+      ],
+      "pointer":"/components/responses/notFound/content/application~1json",
+      "start_line":992,
+      "end_line":995
+   },
+   {
+      "title":"Use Problem JSON",
+      "description":"Operations should return problem JSON when any problem occurs during processing whether caused by client or server. Media type have to be 'application/problem+json'",
+      "violation_type":"MUST",
+      "rule_link":"https://zalando.github.io/restful-api-guidelines/#176",
+      "paths":[
+         "/components/responses/methodNotAllowed/content/application~1json"
+      ],
+      "pointer":"/components/responses/methodNotAllowed/content/application~1json",
+      "start_line":998,
+      "end_line":1001
+   },
+   {
+      "title":"Use Problem JSON",
+      "description":"Operations should return problem JSON when any problem occurs during processing whether caused by client or server. Media type have to be 'application/problem+json'",
+      "violation_type":"MUST",
+      "rule_link":"https://zalando.github.io/restful-api-guidelines/#176",
+      "paths":[
+         "/components/responses/badRequest/content/application~1json"
+      ],
+      "pointer":"/components/responses/badRequest/content/application~1json",
+      "start_line":974,
+      "end_line":977
+   },
+   {
+      "title":"Use Problem JSON",
+      "description":"Operations should return problem JSON when any problem occurs during processing whether caused by client or server. Media type have to be 'application/problem+json'",
+      "violation_type":"MUST",
+      "rule_link":"https://zalando.github.io/restful-api-guidelines/#176",
+      "paths":[
+         "/components/responses/unauthorized/content/application~1json"
+      ],
+      "pointer":"/components/responses/unauthorized/content/application~1json",
+      "start_line":980,
+      "end_line":983
+   },
+   {
+      "title":"Use Problem JSON",
+      "description":"Operations should return problem JSON when any problem occurs during processing whether caused by client or server. Media type have to be 'application/problem+json'",
+      "violation_type":"MUST",
+      "rule_link":"https://zalando.github.io/restful-api-guidelines/#176",
+      "paths":[
+         "/components/responses/forbidden/content/application~1json"
+      ],
+      "pointer":"/components/responses/forbidden/content/application~1json",
+      "start_line":986,
+      "end_line":989
+   },
+   {
+      "title":"Use Problem JSON",
+      "description":"Operations should return problem JSON when any problem occurs during processing whether caused by client or server. Media type have to be 'application/problem+json'",
+      "violation_type":"MUST",
+      "rule_link":"https://zalando.github.io/restful-api-guidelines/#176",
+      "paths":[
+         "/components/responses/notFound/content/application~1json"
+      ],
+      "pointer":"/components/responses/notFound/content/application~1json",
+      "start_line":992,
+      "end_line":995
+   },
+   {
+      "title":"Use Problem JSON",
+      "description":"Operations should return problem JSON when any problem occurs during processing whether caused by client or server. Media type have to be 'application/problem+json'",
+      "violation_type":"MUST",
+      "rule_link":"https://zalando.github.io/restful-api-guidelines/#176",
+      "paths":[
+         "/components/responses/methodNotAllowed/content/application~1json"
+      ],
+      "pointer":"/components/responses/methodNotAllowed/content/application~1json",
+      "start_line":998,
+      "end_line":1001
+   },
+   {
+      "title":"Use Problem JSON",
+      "description":"Operations should return problem JSON when any problem occurs during processing whether caused by client or server. Media type have to be 'application/problem+json'",
+      "violation_type":"MUST",
+      "rule_link":"https://zalando.github.io/restful-api-guidelines/#176",
+      "paths":[
+         "/components/responses/badRequest/content/application~1json"
+      ],
+      "pointer":"/components/responses/badRequest/content/application~1json",
+      "start_line":974,
+      "end_line":977
+   },
+   {
+      "title":"Use Problem JSON",
+      "description":"Operations should return problem JSON when any problem occurs during processing whether caused by client or server. Media type have to be 'application/problem+json'",
+      "violation_type":"MUST",
+      "rule_link":"https://zalando.github.io/restful-api-guidelines/#176",
+      "paths":[
+         "/components/responses/unauthorized/content/application~1json"
+      ],
+      "pointer":"/components/responses/unauthorized/content/application~1json",
+      "start_line":980,
+      "end_line":983
+   },
+   {
+      "title":"Use Problem JSON",
+      "description":"Operations should return problem JSON when any problem occurs during processing whether caused by client or server. Media type have to be 'application/problem+json'",
+      "violation_type":"MUST",
+      "rule_link":"https://zalando.github.io/restful-api-guidelines/#176",
+      "paths":[
+         "/components/responses/forbidden/content/application~1json"
+      ],
+      "pointer":"/components/responses/forbidden/content/application~1json",
+      "start_line":986,
+      "end_line":989
+   },
+   {
+      "title":"Use Problem JSON",
+      "description":"Operations should return problem JSON when any problem occurs during processing whether caused by client or server. Media type have to be 'application/problem+json'",
+      "violation_type":"MUST",
+      "rule_link":"https://zalando.github.io/restful-api-guidelines/#176",
+      "paths":[
+         "/components/responses/notFound/content/application~1json"
+      ],
+      "pointer":"/components/responses/notFound/content/application~1json",
+      "start_line":992,
+      "end_line":995
+   },
+   {
+      "title":"Use Problem JSON",
+      "description":"Operations should return problem JSON when any problem occurs during processing whether caused by client or server. Media type have to be 'application/problem+json'",
+      "violation_type":"MUST",
+      "rule_link":"https://zalando.github.io/restful-api-guidelines/#176",
+      "paths":[
+         "/components/responses/methodNotAllowed/content/application~1json"
+      ],
+      "pointer":"/components/responses/methodNotAllowed/content/application~1json",
+      "start_line":998,
+      "end_line":1001
+   },
+   {
+      "title":"Use Problem JSON",
+      "description":"Operations should return problem JSON when any problem occurs during processing whether caused by client or server. Media type have to be 'application/problem+json'",
+      "violation_type":"MUST",
+      "rule_link":"https://zalando.github.io/restful-api-guidelines/#176",
+      "paths":[
+         "/components/responses/internalServerError/content/application~1json"
+      ],
+      "pointer":"/components/responses/internalServerError/content/application~1json",
+      "start_line":1004,
+      "end_line":1007
+   },
+   {
+      "title":"Use Problem JSON",
+      "description":"Operations should return problem JSON when any problem occurs during processing whether caused by client or server. Media type have to be 'application/problem+json'",
+      "violation_type":"MUST",
+      "rule_link":"https://zalando.github.io/restful-api-guidelines/#176",
+      "paths":[
+         "/components/responses/badRequest/content/application~1json"
+      ],
+      "pointer":"/components/responses/badRequest/content/application~1json",
+      "start_line":974,
+      "end_line":977
+   },
+   {
+      "title":"Use Problem JSON",
+      "description":"Operations should return problem JSON when any problem occurs during processing whether caused by client or server. Media type have to be 'application/problem+json'",
+      "violation_type":"MUST",
+      "rule_link":"https://zalando.github.io/restful-api-guidelines/#176",
+      "paths":[
+         "/components/responses/unauthorized/content/application~1json"
+      ],
+      "pointer":"/components/responses/unauthorized/content/application~1json",
+      "start_line":980,
+      "end_line":983
+   },
+   {
+      "title":"Use Problem JSON",
+      "description":"Operations should return problem JSON when any problem occurs during processing whether caused by client or server. Media type have to be 'application/problem+json'",
+      "violation_type":"MUST",
+      "rule_link":"https://zalando.github.io/restful-api-guidelines/#176",
+      "paths":[
+         "/components/responses/forbidden/content/application~1json"
+      ],
+      "pointer":"/components/responses/forbidden/content/application~1json",
+      "start_line":986,
+      "end_line":989
+   },
+   {
+      "title":"Use Problem JSON",
+      "description":"Operations should return problem JSON when any problem occurs during processing whether caused by client or server. Media type have to be 'application/problem+json'",
+      "violation_type":"MUST",
+      "rule_link":"https://zalando.github.io/restful-api-guidelines/#176",
+      "paths":[
+         "/components/responses/notFound/content/application~1json"
+      ],
+      "pointer":"/components/responses/notFound/content/application~1json",
+      "start_line":992,
+      "end_line":995
+   },
+   {
+      "title":"Use Problem JSON",
+      "description":"Operations should return problem JSON when any problem occurs during processing whether caused by client or server. Media type have to be 'application/problem+json'",
+      "violation_type":"MUST",
+      "rule_link":"https://zalando.github.io/restful-api-guidelines/#176",
+      "paths":[
+         "/components/responses/unauthorized/content/application~1json"
+      ],
+      "pointer":"/components/responses/unauthorized/content/application~1json",
+      "start_line":980,
+      "end_line":983
+   },
+   {
+      "title":"Use Problem JSON",
+      "description":"Operations should return problem JSON when any problem occurs during processing whether caused by client or server. Media type have to be 'application/problem+json'",
+      "violation_type":"MUST",
+      "rule_link":"https://zalando.github.io/restful-api-guidelines/#176",
+      "paths":[
+         "/components/responses/forbidden/content/application~1json"
+      ],
+      "pointer":"/components/responses/forbidden/content/application~1json",
+      "start_line":986,
+      "end_line":989
+   },
+   {
+      "title":"Use Problem JSON",
+      "description":"Operations should return problem JSON when any problem occurs during processing whether caused by client or server. Media type have to be 'application/problem+json'",
+      "violation_type":"MUST",
+      "rule_link":"https://zalando.github.io/restful-api-guidelines/#176",
+      "paths":[
+         "/components/responses/notFound/content/application~1json"
+      ],
+      "pointer":"/components/responses/notFound/content/application~1json",
+      "start_line":992,
+      "end_line":995
+   },
+   {
+      "title":"Use Problem JSON",
+      "description":"Operations should return problem JSON when any problem occurs during processing whether caused by client or server. Media type have to be 'application/problem+json'",
+      "violation_type":"MUST",
+      "rule_link":"https://zalando.github.io/restful-api-guidelines/#176",
+      "paths":[
+         "/components/responses/badRequest/content/application~1json"
+      ],
+      "pointer":"/components/responses/badRequest/content/application~1json",
+      "start_line":974,
+      "end_line":977
+   },
+   {
+      "title":"Use Problem JSON",
+      "description":"Operations should return problem JSON when any problem occurs during processing whether caused by client or server. Media type have to be 'application/problem+json'",
+      "violation_type":"MUST",
+      "rule_link":"https://zalando.github.io/restful-api-guidelines/#176",
+      "paths":[
+         "/components/responses/unauthorized/content/application~1json"
+      ],
+      "pointer":"/components/responses/unauthorized/content/application~1json",
+      "start_line":980,
+      "end_line":983
+   },
+   {
+      "title":"Use Problem JSON",
+      "description":"Operations should return problem JSON when any problem occurs during processing whether caused by client or server. Media type have to be 'application/problem+json'",
+      "violation_type":"MUST",
+      "rule_link":"https://zalando.github.io/restful-api-guidelines/#176",
+      "paths":[
+         "/components/responses/forbidden/content/application~1json"
+      ],
+      "pointer":"/components/responses/forbidden/content/application~1json",
+      "start_line":986,
+      "end_line":989
+   },
+   {
+      "title":"Use Problem JSON",
+      "description":"Operations should return problem JSON when any problem occurs during processing whether caused by client or server. Media type have to be 'application/problem+json'",
+      "violation_type":"MUST",
+      "rule_link":"https://zalando.github.io/restful-api-guidelines/#176",
+      "paths":[
+         "/components/responses/notFound/content/application~1json"
+      ],
+      "pointer":"/components/responses/notFound/content/application~1json",
+      "start_line":992,
+      "end_line":995
+   },
+   {
+      "title":"Use Problem JSON",
+      "description":"Operations should return problem JSON when any problem occurs during processing whether caused by client or server. Media type have to be 'application/problem+json'",
+      "violation_type":"MUST",
+      "rule_link":"https://zalando.github.io/restful-api-guidelines/#176",
+      "paths":[
+         "/components/responses/unauthorized/content/application~1json"
+      ],
+      "pointer":"/components/responses/unauthorized/content/application~1json",
+      "start_line":980,
+      "end_line":983
+   },
+   {
+      "title":"Use Problem JSON",
+      "description":"Operations should return problem JSON when any problem occurs during processing whether caused by client or server. Media type have to be 'application/problem+json'",
+      "violation_type":"MUST",
+      "rule_link":"https://zalando.github.io/restful-api-guidelines/#176",
+      "paths":[
+         "/components/responses/forbidden/content/application~1json"
+      ],
+      "pointer":"/components/responses/forbidden/content/application~1json",
+      "start_line":986,
+      "end_line":989
+   },
+   {
+      "title":"Use Problem JSON",
+      "description":"Operations should return problem JSON when any problem occurs during processing whether caused by client or server. Media type have to be 'application/problem+json'",
+      "violation_type":"MUST",
+      "rule_link":"https://zalando.github.io/restful-api-guidelines/#176",
+      "paths":[
+         "/components/responses/notFound/content/application~1json"
+      ],
+      "pointer":"/components/responses/notFound/content/application~1json",
+      "start_line":992,
+      "end_line":995
+   },
+   {
+      "title":"Use Problem JSON",
+      "description":"Operations should return problem JSON when any problem occurs during processing whether caused by client or server. Media type have to be 'application/problem+json'",
+      "violation_type":"MUST",
+      "rule_link":"https://zalando.github.io/restful-api-guidelines/#176",
+      "paths":[
+         "/components/responses/unauthorized/content/application~1json"
+      ],
+      "pointer":"/components/responses/unauthorized/content/application~1json",
+      "start_line":980,
+      "end_line":983
+   },
+   {
+      "title":"Use Problem JSON",
+      "description":"Operations should return problem JSON when any problem occurs during processing whether caused by client or server. Media type have to be 'application/problem+json'",
+      "violation_type":"MUST",
+      "rule_link":"https://zalando.github.io/restful-api-guidelines/#176",
+      "paths":[
+         "/components/responses/forbidden/content/application~1json"
+      ],
+      "pointer":"/components/responses/forbidden/content/application~1json",
+      "start_line":986,
+      "end_line":989
+   },
+   {
+      "title":"Use Problem JSON",
+      "description":"Operations should return problem JSON when any problem occurs during processing whether caused by client or server. Media type have to be 'application/problem+json'",
+      "violation_type":"MUST",
+      "rule_link":"https://zalando.github.io/restful-api-guidelines/#176",
+      "paths":[
+         "/components/responses/notFound/content/application~1json"
+      ],
+      "pointer":"/components/responses/notFound/content/application~1json",
+      "start_line":992,
+      "end_line":995
+   },
+   {
+      "title":"Use Problem JSON",
+      "description":"Operations should return problem JSON when any problem occurs during processing whether caused by client or server. Media type have to be 'application/problem+json'",
+      "violation_type":"MUST",
+      "rule_link":"https://zalando.github.io/restful-api-guidelines/#176",
+      "paths":[
+         "/components/responses/unauthorized/content/application~1json"
+      ],
+      "pointer":"/components/responses/unauthorized/content/application~1json",
+      "start_line":980,
+      "end_line":983
+   },
+   {
+      "title":"Use Problem JSON",
+      "description":"Operations should return problem JSON when any problem occurs during processing whether caused by client or server. Media type have to be 'application/problem+json'",
+      "violation_type":"MUST",
+      "rule_link":"https://zalando.github.io/restful-api-guidelines/#176",
+      "paths":[
+         "/components/responses/forbidden/content/application~1json"
+      ],
+      "pointer":"/components/responses/forbidden/content/application~1json",
+      "start_line":986,
+      "end_line":989
+   },
+   {
+      "title":"Use Problem JSON",
+      "description":"Operations should return problem JSON when any problem occurs during processing whether caused by client or server. Media type have to be 'application/problem+json'",
+      "violation_type":"MUST",
+      "rule_link":"https://zalando.github.io/restful-api-guidelines/#176",
+      "paths":[
+         "/components/responses/notFound/content/application~1json"
+      ],
+      "pointer":"/components/responses/notFound/content/application~1json",
+      "start_line":992,
+      "end_line":995
+   },
+   {
+      "title":"Use Problem JSON",
+      "description":"Operations should return problem JSON when any problem occurs during processing whether caused by client or server. Media type have to be 'application/problem+json'",
+      "violation_type":"MUST",
+      "rule_link":"https://zalando.github.io/restful-api-guidelines/#176",
+      "paths":[
+         "/components/responses/badRequest/content/application~1json"
+      ],
+      "pointer":"/components/responses/badRequest/content/application~1json",
+      "start_line":974,
+      "end_line":977
+   },
+   {
+      "title":"Use Problem JSON",
+      "description":"Operations should return problem JSON when any problem occurs during processing whether caused by client or server. Media type have to be 'application/problem+json'",
+      "violation_type":"MUST",
+      "rule_link":"https://zalando.github.io/restful-api-guidelines/#176",
+      "paths":[
+         "/components/responses/unauthorized/content/application~1json"
+      ],
+      "pointer":"/components/responses/unauthorized/content/application~1json",
+      "start_line":980,
+      "end_line":983
+   },
+   {
+      "title":"Use Problem JSON",
+      "description":"Operations should return problem JSON when any problem occurs during processing whether caused by client or server. Media type have to be 'application/problem+json'",
+      "violation_type":"MUST",
+      "rule_link":"https://zalando.github.io/restful-api-guidelines/#176",
+      "paths":[
+         "/components/responses/forbidden/content/application~1json"
+      ],
+      "pointer":"/components/responses/forbidden/content/application~1json",
+      "start_line":986,
+      "end_line":989
+   },
+   {
+      "title":"Use Problem JSON",
+      "description":"Operations should return problem JSON when any problem occurs during processing whether caused by client or server. Media type have to be 'application/problem+json'",
+      "violation_type":"MUST",
+      "rule_link":"https://zalando.github.io/restful-api-guidelines/#176",
+      "paths":[
+         "/components/responses/notFound/content/application~1json"
+      ],
+      "pointer":"/components/responses/notFound/content/application~1json",
+      "start_line":992,
+      "end_line":995
+   },
+   {
+      "title":"Use Problem JSON",
+      "description":"Operations should return problem JSON when any problem occurs during processing whether caused by client or server. Media type have to be 'application/problem+json'",
+      "violation_type":"MUST",
+      "rule_link":"https://zalando.github.io/restful-api-guidelines/#176",
+      "paths":[
+         "/components/responses/methodNotAllowed/content/application~1json"
+      ],
+      "pointer":"/components/responses/methodNotAllowed/content/application~1json",
+      "start_line":998,
+      "end_line":1001
+   },
+   {
+      "title":"Use Problem JSON",
+      "description":"Operations should return problem JSON when any problem occurs during processing whether caused by client or server. Media type have to be 'application/problem+json'",
+      "violation_type":"MUST",
+      "rule_link":"https://zalando.github.io/restful-api-guidelines/#176",
+      "paths":[
+         "/components/responses/badRequest/content/application~1json"
+      ],
+      "pointer":"/components/responses/badRequest/content/application~1json",
+      "start_line":974,
+      "end_line":977
+   },
+   {
+      "title":"Use Problem JSON",
+      "description":"Operations should return problem JSON when any problem occurs during processing whether caused by client or server. Media type have to be 'application/problem+json'",
+      "violation_type":"MUST",
+      "rule_link":"https://zalando.github.io/restful-api-guidelines/#176",
+      "paths":[
+         "/components/responses/unauthorized/content/application~1json"
+      ],
+      "pointer":"/components/responses/unauthorized/content/application~1json",
+      "start_line":980,
+      "end_line":983
+   },
+   {
+      "title":"Use Problem JSON",
+      "description":"Operations should return problem JSON when any problem occurs during processing whether caused by client or server. Media type have to be 'application/problem+json'",
+      "violation_type":"MUST",
+      "rule_link":"https://zalando.github.io/restful-api-guidelines/#176",
+      "paths":[
+         "/components/responses/forbidden/content/application~1json"
+      ],
+      "pointer":"/components/responses/forbidden/content/application~1json",
+      "start_line":986,
+      "end_line":989
+   },
+   {
+      "title":"Use Problem JSON",
+      "description":"Operations should return problem JSON when any problem occurs during processing whether caused by client or server. Media type have to be 'application/problem+json'",
+      "violation_type":"MUST",
+      "rule_link":"https://zalando.github.io/restful-api-guidelines/#176",
+      "paths":[
+         "/components/responses/notFound/content/application~1json"
+      ],
+      "pointer":"/components/responses/notFound/content/application~1json",
+      "start_line":992,
+      "end_line":995
+   },
+   {
+      "title":"Use Problem JSON",
+      "description":"Operations should return problem JSON when any problem occurs during processing whether caused by client or server. Media type have to be 'application/problem+json'",
+      "violation_type":"MUST",
+      "rule_link":"https://zalando.github.io/restful-api-guidelines/#176",
+      "paths":[
+         "/components/responses/methodNotAllowed/content/application~1json"
+      ],
+      "pointer":"/components/responses/methodNotAllowed/content/application~1json",
+      "start_line":998,
+      "end_line":1001
+   },
+   {
+      "title":"Use Problem JSON",
+      "description":"Operations should return problem JSON when any problem occurs during processing whether caused by client or server. Media type have to be 'application/problem+json'",
+      "violation_type":"MUST",
+      "rule_link":"https://zalando.github.io/restful-api-guidelines/#176",
+      "paths":[
+         "/components/responses/badRequest/content/application~1json"
+      ],
+      "pointer":"/components/responses/badRequest/content/application~1json",
+      "start_line":974,
+      "end_line":977
+   },
+   {
+      "title":"Use Problem JSON",
+      "description":"Operations should return problem JSON when any problem occurs during processing whether caused by client or server. Media type have to be 'application/problem+json'",
+      "violation_type":"MUST",
+      "rule_link":"https://zalando.github.io/restful-api-guidelines/#176",
+      "paths":[
+         "/components/responses/unauthorized/content/application~1json"
+      ],
+      "pointer":"/components/responses/unauthorized/content/application~1json",
+      "start_line":980,
+      "end_line":983
+   },
+   {
+      "title":"Use Problem JSON",
+      "description":"Operations should return problem JSON when any problem occurs during processing whether caused by client or server. Media type have to be 'application/problem+json'",
+      "violation_type":"MUST",
+      "rule_link":"https://zalando.github.io/restful-api-guidelines/#176",
+      "paths":[
+         "/components/responses/forbidden/content/application~1json"
+      ],
+      "pointer":"/components/responses/forbidden/content/application~1json",
+      "start_line":986,
+      "end_line":989
+   },
+   {
+      "title":"Use Problem JSON",
+      "description":"Operations should return problem JSON when any problem occurs during processing whether caused by client or server. Media type have to be 'application/problem+json'",
+      "violation_type":"MUST",
+      "rule_link":"https://zalando.github.io/restful-api-guidelines/#176",
+      "paths":[
+         "/components/responses/notFound/content/application~1json"
+      ],
+      "pointer":"/components/responses/notFound/content/application~1json",
+      "start_line":992,
+      "end_line":995
+   },
+   {
+      "title":"Use Problem JSON",
+      "description":"Operations should return problem JSON when any problem occurs during processing whether caused by client or server. Media type have to be 'application/problem+json'",
+      "violation_type":"MUST",
+      "rule_link":"https://zalando.github.io/restful-api-guidelines/#176",
+      "paths":[
+         "/components/responses/methodNotAllowed/content/application~1json"
+      ],
+      "pointer":"/components/responses/methodNotAllowed/content/application~1json",
+      "start_line":998,
+      "end_line":1001
+   },
+   {
+      "title":"Use Problem JSON",
+      "description":"Operations should return problem JSON when any problem occurs during processing whether caused by client or server. Media type have to be 'application/problem+json'",
+      "violation_type":"MUST",
+      "rule_link":"https://zalando.github.io/restful-api-guidelines/#176",
+      "paths":[
+         "/components/responses/badRequest/content/application~1json"
+      ],
+      "pointer":"/components/responses/badRequest/content/application~1json",
+      "start_line":974,
+      "end_line":977
+   },
+   {
+      "title":"Use Problem JSON",
+      "description":"Operations should return problem JSON when any problem occurs during processing whether caused by client or server. Media type have to be 'application/problem+json'",
+      "violation_type":"MUST",
+      "rule_link":"https://zalando.github.io/restful-api-guidelines/#176",
+      "paths":[
+         "/components/responses/unauthorized/content/application~1json"
+      ],
+      "pointer":"/components/responses/unauthorized/content/application~1json",
+      "start_line":980,
+      "end_line":983
+   },
+   {
+      "title":"Use Problem JSON",
+      "description":"Operations should return problem JSON when any problem occurs during processing whether caused by client or server. Media type have to be 'application/problem+json'",
+      "violation_type":"MUST",
+      "rule_link":"https://zalando.github.io/restful-api-guidelines/#176",
+      "paths":[
+         "/components/responses/forbidden/content/application~1json"
+      ],
+      "pointer":"/components/responses/forbidden/content/application~1json",
+      "start_line":986,
+      "end_line":989
+   },
+   {
+      "title":"Use Problem JSON",
+      "description":"Operations should return problem JSON when any problem occurs during processing whether caused by client or server. Media type have to be 'application/problem+json'",
+      "violation_type":"MUST",
+      "rule_link":"https://zalando.github.io/restful-api-guidelines/#176",
+      "paths":[
+         "/components/responses/notFound/content/application~1json"
+      ],
+      "pointer":"/components/responses/notFound/content/application~1json",
+      "start_line":992,
+      "end_line":995
+   },
+   {
+      "title":"Use Problem JSON",
+      "description":"Operations should return problem JSON when any problem occurs during processing whether caused by client or server. Media type have to be 'application/problem+json'",
+      "violation_type":"MUST",
+      "rule_link":"https://zalando.github.io/restful-api-guidelines/#176",
+      "paths":[
+         "/components/responses/methodNotAllowed/content/application~1json"
+      ],
+      "pointer":"/components/responses/methodNotAllowed/content/application~1json",
+      "start_line":998,
+      "end_line":1001
+   },
+   {
+      "title":"Use Problem JSON",
+      "description":"Operations should return problem JSON when any problem occurs during processing whether caused by client or server. Media type have to be 'application/problem+json'",
+      "violation_type":"MUST",
+      "rule_link":"https://zalando.github.io/restful-api-guidelines/#176",
+      "paths":[
+         "/components/responses/badRequest/content/application~1json"
+      ],
+      "pointer":"/components/responses/badRequest/content/application~1json",
+      "start_line":974,
+      "end_line":977
+   },
+   {
+      "title":"Use Problem JSON",
+      "description":"Operations should return problem JSON when any problem occurs during processing whether caused by client or server. Media type have to be 'application/problem+json'",
+      "violation_type":"MUST",
+      "rule_link":"https://zalando.github.io/restful-api-guidelines/#176",
+      "paths":[
+         "/components/responses/unauthorized/content/application~1json"
+      ],
+      "pointer":"/components/responses/unauthorized/content/application~1json",
+      "start_line":980,
+      "end_line":983
+   },
+   {
+      "title":"Use Problem JSON",
+      "description":"Operations should return problem JSON when any problem occurs during processing whether caused by client or server. Media type have to be 'application/problem+json'",
+      "violation_type":"MUST",
+      "rule_link":"https://zalando.github.io/restful-api-guidelines/#176",
+      "paths":[
+         "/components/responses/forbidden/content/application~1json"
+      ],
+      "pointer":"/components/responses/forbidden/content/application~1json",
+      "start_line":986,
+      "end_line":989
+   },
+   {
+      "title":"Use Problem JSON",
+      "description":"Operations should return problem JSON when any problem occurs during processing whether caused by client or server. Media type have to be 'application/problem+json'",
+      "violation_type":"MUST",
+      "rule_link":"https://zalando.github.io/restful-api-guidelines/#176",
+      "paths":[
+         "/components/responses/notFound/content/application~1json"
+      ],
+      "pointer":"/components/responses/notFound/content/application~1json",
+      "start_line":992,
+      "end_line":995
+   },
+   {
+      "title":"Use Problem JSON",
+      "description":"Operations should return problem JSON when any problem occurs during processing whether caused by client or server. Media type have to be 'application/problem+json'",
+      "violation_type":"MUST",
+      "rule_link":"https://zalando.github.io/restful-api-guidelines/#176",
+      "paths":[
+         "/components/responses/methodNotAllowed/content/application~1json"
+      ],
+      "pointer":"/components/responses/methodNotAllowed/content/application~1json",
+      "start_line":998,
+      "end_line":1001
+   },
+   {
+      "title":"Use Problem JSON",
+      "description":"Operations should return problem JSON when any problem occurs during processing whether caused by client or server. Media type have to be 'application/problem+json'",
+      "violation_type":"MUST",
+      "rule_link":"https://zalando.github.io/restful-api-guidelines/#176",
+      "paths":[
+         "/components/responses/badRequest/content/application~1json"
+      ],
+      "pointer":"/components/responses/badRequest/content/application~1json",
+      "start_line":974,
+      "end_line":977
+   },
+   {
+      "title":"Use Problem JSON",
+      "description":"Operations should return problem JSON when any problem occurs during processing whether caused by client or server. Media type have to be 'application/problem+json'",
+      "violation_type":"MUST",
+      "rule_link":"https://zalando.github.io/restful-api-guidelines/#176",
+      "paths":[
+         "/components/responses/unauthorized/content/application~1json"
+      ],
+      "pointer":"/components/responses/unauthorized/content/application~1json",
+      "start_line":980,
+      "end_line":983
+   },
+   {
+      "title":"Use Problem JSON",
+      "description":"Operations should return problem JSON when any problem occurs during processing whether caused by client or server. Media type have to be 'application/problem+json'",
+      "violation_type":"MUST",
+      "rule_link":"https://zalando.github.io/restful-api-guidelines/#176",
+      "paths":[
+         "/components/responses/forbidden/content/application~1json"
+      ],
+      "pointer":"/components/responses/forbidden/content/application~1json",
+      "start_line":986,
+      "end_line":989
+   },
+   {
+      "title":"Use Problem JSON",
+      "description":"Operations should return problem JSON when any problem occurs during processing whether caused by client or server. Media type have to be 'application/problem+json'",
+      "violation_type":"MUST",
+      "rule_link":"https://zalando.github.io/restful-api-guidelines/#176",
+      "paths":[
+         "/components/responses/notFound/content/application~1json"
+      ],
+      "pointer":"/components/responses/notFound/content/application~1json",
+      "start_line":992,
+      "end_line":995
+   },
+   {
+      "title":"Use Problem JSON",
+      "description":"Operations should return problem JSON when any problem occurs during processing whether caused by client or server. Media type have to be 'application/problem+json'",
+      "violation_type":"MUST",
+      "rule_link":"https://zalando.github.io/restful-api-guidelines/#176",
+      "paths":[
+         "/components/responses/badRequest/content/application~1json"
+      ],
+      "pointer":"/components/responses/badRequest/content/application~1json",
+      "start_line":974,
+      "end_line":977
+   },
+   {
+      "title":"Use Problem JSON",
+      "description":"Operations should return problem JSON when any problem occurs during processing whether caused by client or server. Media type have to be 'application/problem+json'",
+      "violation_type":"MUST",
+      "rule_link":"https://zalando.github.io/restful-api-guidelines/#176",
+      "paths":[
+         "/components/responses/unauthorized/content/application~1json"
+      ],
+      "pointer":"/components/responses/unauthorized/content/application~1json",
+      "start_line":980,
+      "end_line":983
+   },
+   {
+      "title":"Use Problem JSON",
+      "description":"Operations should return problem JSON when any problem occurs during processing whether caused by client or server. Media type have to be 'application/problem+json'",
+      "violation_type":"MUST",
+      "rule_link":"https://zalando.github.io/restful-api-guidelines/#176",
+      "paths":[
+         "/components/responses/forbidden/content/application~1json"
+      ],
+      "pointer":"/components/responses/forbidden/content/application~1json",
+      "start_line":986,
+      "end_line":989
+   },
+   {
+      "title":"Use Problem JSON",
+      "description":"Operations should return problem JSON when any problem occurs during processing whether caused by client or server. Media type have to be 'application/problem+json'",
+      "violation_type":"MUST",
+      "rule_link":"https://zalando.github.io/restful-api-guidelines/#176",
+      "paths":[
+         "/components/responses/notFound/content/application~1json"
+      ],
+      "pointer":"/components/responses/notFound/content/application~1json",
+      "start_line":992,
+      "end_line":995
+   },
+   {
+      "title":"Use Problem JSON",
+      "description":"Operations should return problem JSON when any problem occurs during processing whether caused by client or server. Media type have to be 'application/problem+json'",
+      "violation_type":"MUST",
+      "rule_link":"https://zalando.github.io/restful-api-guidelines/#176",
+      "paths":[
+         "/components/responses/methodNotAllowed/content/application~1json"
+      ],
+      "pointer":"/components/responses/methodNotAllowed/content/application~1json",
+      "start_line":998,
+      "end_line":1001
+   },
+   {
+      "title":"Use Problem JSON",
+      "description":"Operations should return problem JSON when any problem occurs during processing whether caused by client or server. Media type have to be 'application/problem+json'",
+      "violation_type":"MUST",
+      "rule_link":"https://zalando.github.io/restful-api-guidelines/#176",
+      "paths":[
+         "/components/responses/badRequest/content/application~1json"
+      ],
+      "pointer":"/components/responses/badRequest/content/application~1json",
+      "start_line":974,
+      "end_line":977
+   },
+   {
+      "title":"Use Problem JSON",
+      "description":"Operations should return problem JSON when any problem occurs during processing whether caused by client or server. Media type have to be 'application/problem+json'",
+      "violation_type":"MUST",
+      "rule_link":"https://zalando.github.io/restful-api-guidelines/#176",
+      "paths":[
+         "/components/responses/unauthorized/content/application~1json"
+      ],
+      "pointer":"/components/responses/unauthorized/content/application~1json",
+      "start_line":980,
+      "end_line":983
+   },
+   {
+      "title":"Use Problem JSON",
+      "description":"Operations should return problem JSON when any problem occurs during processing whether caused by client or server. Media type have to be 'application/problem+json'",
+      "violation_type":"MUST",
+      "rule_link":"https://zalando.github.io/restful-api-guidelines/#176",
+      "paths":[
+         "/components/responses/forbidden/content/application~1json"
+      ],
+      "pointer":"/components/responses/forbidden/content/application~1json",
+      "start_line":986,
+      "end_line":989
+   },
+   {
+      "title":"Use Problem JSON",
+      "description":"Operations should return problem JSON when any problem occurs during processing whether caused by client or server. Media type have to be 'application/problem+json'",
+      "violation_type":"MUST",
+      "rule_link":"https://zalando.github.io/restful-api-guidelines/#176",
+      "paths":[
+         "/components/responses/notFound/content/application~1json"
+      ],
+      "pointer":"/components/responses/notFound/content/application~1json",
+      "start_line":992,
+      "end_line":995
+   },
+   {
+      "title":"Use Problem JSON",
+      "description":"Operations should return problem JSON when any problem occurs during processing whether caused by client or server. Media type have to be 'application/problem+json'",
+      "violation_type":"MUST",
+      "rule_link":"https://zalando.github.io/restful-api-guidelines/#176",
+      "paths":[
+         "/components/responses/methodNotAllowed/content/application~1json"
+      ],
+      "pointer":"/components/responses/methodNotAllowed/content/application~1json",
+      "start_line":998,
+      "end_line":1001
+   },
+   {
+      "title":"Prefer Compatible Extensions",
+      "description":"Property is not an extensible enum (use `x-extensible-enum` instead)",
+      "violation_type":"SHOULD",
+      "rule_link":"https://zalando.github.io/restful-api-guidelines/#107",
+      "paths":[
+         "/components/schemas/downloadContentStatus/properties/status"
+      ],
+      "pointer":"/components/schemas/downloadContentStatus/properties/status",
+      "start_line":1079,
+      "end_line":1089
+   },
+   {
+      "title":"Prefer Compatible Extensions",
+      "description":"Property is not an extensible enum (use `x-extensible-enum` instead)",
+      "violation_type":"SHOULD",
+      "rule_link":"https://zalando.github.io/restful-api-guidelines/#107",
+      "paths":[
+         "/components/schemas/MetadataRequest/properties/objectState"
+      ],
+      "pointer":"/components/schemas/MetadataRequest/properties/objectState",
+      "start_line":1114,
+      "end_line":1132
+   },
+   {
+      "title":"Prefer Compatible Extensions",
+      "description":"Property is not an extensible enum (use `x-extensible-enum` instead)",
+      "violation_type":"SHOULD",
+      "rule_link":"https://zalando.github.io/restful-api-guidelines/#107",
+      "paths":[
+         "/components/schemas/MetadataResponse/properties/objectState"
+      ],
+      "pointer":"/components/schemas/MetadataResponse/properties/objectState",
+      "start_line":1181,
+      "end_line":1201
+   },
+   {
+      "title":"Prefer Compatible Extensions",
+      "description":"Property is not an extensible enum (use `x-extensible-enum` instead)",
+      "violation_type":"SHOULD",
+      "rule_link":"https://zalando.github.io/restful-api-guidelines/#107",
+      "paths":[
+         "/components/schemas/MetadataResponse/properties/type"
+      ],
+      "pointer":"/components/schemas/MetadataResponse/properties/type",
+      "start_line":1213,
+      "end_line":1220
+   },
+   {
+      "title":"Prefer Compatible Extensions",
+      "description":"Property is not an extensible enum (use `x-extensible-enum` instead)",
+      "violation_type":"SHOULD",
+      "rule_link":"https://zalando.github.io/restful-api-guidelines/#107",
+      "paths":[
+         "/components/schemas/ObjectStateRequest/properties/objectState"
+      ],
+      "pointer":"/components/schemas/ObjectStateRequest/properties/objectState",
+      "start_line":1234,
+      "end_line":1252
+   },
+   {
+      "title":"Limit number of resource types",
+      "description":"Identified 9 resource resource types, greater than recommended limit of 8",
+      "violation_type":"SHOULD",
+      "rule_link":"https://zalando.github.io/restful-api-guidelines/#146",
+      "paths":[
+         "/paths"
+      ],
+      "pointer":"/paths",
+      "start_line":28,
+      "end_line":965
+   },
+   {
+      "title":"Array names should be pluralized",
+      "description":"Array property name appears to be singular: metadataList",
+      "violation_type":"SHOULD",
+      "rule_link":"https://zalando.github.io/restful-api-guidelines/#120",
+      "paths":[
+         "/components/schemas/BucketResponse/properties/metadataList"
+      ],
+      "pointer":"/components/schemas/BucketResponse/properties/metadataList",
+      "start_line":1042,
+      "end_line":1046
+   },
+   {
+      "title":"Array names should be pluralized",
+      "description":"Array property name appears to be singular: content",
+      "violation_type":"SHOULD",
+      "rule_link":"https://zalando.github.io/restful-api-guidelines/#120",
+      "paths":[
+         "/components/schemas/downloadContentStatus/properties/content"
+      ],
+      "pointer":"/components/schemas/downloadContentStatus/properties/content",
+      "start_line":1074,
+      "end_line":1079
+   },
+   {
+      "title":"Array names should be pluralized",
+      "description":"Array property name appears to be singular: content",
+      "violation_type":"SHOULD",
+      "rule_link":"https://zalando.github.io/restful-api-guidelines/#120",
+      "paths":[
+         "/components/schemas/ResponsePage/properties/content"
+      ],
+      "pointer":"/components/schemas/ResponsePage/properties/content",
+      "start_line":1256,
+      "end_line":1260
+   },
+   {
+      "title":"Array names should be pluralized",
+      "description":"Array property name appears to be singular: metadataList",
+      "violation_type":"SHOULD",
+      "rule_link":"https://zalando.github.io/restful-api-guidelines/#120",
+      "paths":[
+         "/components/schemas/BucketResponse/properties/metadataList"
+      ],
+      "pointer":"/components/schemas/BucketResponse/properties/metadataList",
+      "start_line":1042,
+      "end_line":1046
+   },
+   {
+      "title":"Array names should be pluralized",
+      "description":"Array property name appears to be singular: metadataList",
+      "violation_type":"SHOULD",
+      "rule_link":"https://zalando.github.io/restful-api-guidelines/#120",
+      "paths":[
+         "/components/schemas/BucketResponse/properties/metadataList"
+      ],
+      "pointer":"/components/schemas/BucketResponse/properties/metadataList",
+      "start_line":1042,
+      "end_line":1046
+   },
+   {
+      "title":"Array names should be pluralized",
+      "description":"Array property name appears to be singular: metadataList",
+      "violation_type":"SHOULD",
+      "rule_link":"https://zalando.github.io/restful-api-guidelines/#120",
+      "paths":[
+         "/components/schemas/BucketResponse/properties/metadataList"
+      ],
+      "pointer":"/components/schemas/BucketResponse/properties/metadataList",
+      "start_line":1042,
+      "end_line":1046
+   },
+   {
+      "title":"Use Standard HTTP Status Codes",
+      "description":"Operations should use well-understood HTTP status codes",
+      "violation_type":"SHOULD",
+      "rule_link":"https://zalando.github.io/restful-api-guidelines/#150",
+      "paths":[
+         "/components/responses/noContent"
+      ],
+      "pointer":"/components/responses/noContent",
+      "start_line":969,
+      "end_line":971
+   },
+   {
+      "title":"Use Standard HTTP Status Codes",
+      "description":"Operations should use well-understood HTTP status codes",
+      "violation_type":"SHOULD",
+      "rule_link":"https://zalando.github.io/restful-api-guidelines/#150",
+      "paths":[
+         "/components/responses/noContent"
+      ],
+      "pointer":"/components/responses/noContent",
+      "start_line":969,
+      "end_line":971
+   }
+]

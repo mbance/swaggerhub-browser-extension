@@ -1,0 +1,54 @@
+<!--
+ Copyright (c) 2019. by 8x8, Inc.
+  _____      _____
+ |  _  |    |  _  |
+  \ V /__  __\ V /   ___ ___  _ __ ___
+  / _ \\ \/ // _ \  / __/ _ \| '_ ` _ \
+ | |_| |>  <| |_| || (_| (_) | | | | | |
+ \_____/_/\_\_____(_)___\___/|_| |_| |_|
+
+ All rights reserved.
+
+ This software is the confidential and proprietary information
+ of 8x8 Inc. ("Confidential Information").  You
+ shall not disclose such Confidential Information and shall use
+ it only in accordance with the terms of the license agreement
+ you entered into with 8x8 Inc.
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>SwaggerHub Chrome Extension Options</title>
+    <!-- Import the external CSS styling to apply to the HTML page -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Import content and options scripts -->
+    <script src="../js/content.js" type="text/javascript"></script>
+    <script src="../js/options.js" type="text/javascript"></script>
+
+    <!-- Import jQuery Library -->
+    <script src="../js/lib/jquery-3.4.1.min.js" type="text/javascript"></script>
+</head>
+<body>
+<div>
+    <!--Options form to contain the URL user input and button being used by the script to save(test)-->
+    <form name="linter">
+        <label for="url">Endpoint: </label>
+        <input id="url" type="text" placeholder="https://swaggerhub.es.8x8.com/apis/8x8/.../..." style="width: 300px"
+               autocomplete="off"/>
+        <br>
+        <br>
+        <button id="btnTest" type="submit">Test</button>
+        <br>
+        <br>
+        <div id="msg"></div>
+</form>
+<hr>
+</div>
+<!--Navigation to other page(s)-->
+<div class="nav">
+    <a href="https://git.8x8.com/vcc/swaggerhub-chrome-extension/blob/master/README.md"
+       target="_blank">Documentation</a>
+</div>
+</body>
+</html>
